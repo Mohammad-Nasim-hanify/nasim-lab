@@ -14,7 +14,7 @@ def uploader():
         f = request.files['file']
         
         f.save(secure_filename(f.filename))
-        return 'file uploaded thanks! cood writers (M.Nasim)+(jalil)+(jawid)+(shahab)+(nawid).'
+        return 'file uploaded thanks! cood writers (M.Nasim: 95119)+(jalil : 95094)+(jawid : 95125)+(shahab : 95134)+(nawid : 95080).'
 
 if __name__ == '__main__':
     app.run(debug = True)
